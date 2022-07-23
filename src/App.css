@@ -1,0 +1,64 @@
+:root{
+  box-sizing: border-box;
+  background-color: #170055;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+button{
+  cursor: pointer;
+}
+
+.App{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.user-list{
+  flex-grow: 1;
+  background-color: #AE00FB;
+
+}
+
+.user-form{
+  background-color:#3E00FF ;
+  width: 25%;
+  padding: 1em;
+}
+.user-card{
+  background-color: white;
+  border-radius: 10px;
+  padding: .5em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+.user-card:hover{
+  background-color: #B5FFD9;
+  transform: scale(1.05);
+  box-shadow: 10px 5px 5px black;
+}
+
+.display-hover{
+  cursor: pointer;
+  margin-left: -5%;
+}
+
+#delete{
+  background-color: rgba(255, 0, 0, 0.747);
+  border-style: none;
+}
+
+#edit{
+  border-style: none;
+  background-color: whitesmoke;
+}
+
+@media(max-width: 480px){
+  .app{
+    display: flex;
+    flex-direction: column;
+  }
+}
